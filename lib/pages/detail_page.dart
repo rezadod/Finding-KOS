@@ -123,7 +123,7 @@ class _DetailPageState extends State<DetailPage> {
                                     margin: EdgeInsets.only(left: 2),
                                     child: RatingItem(
                                         index: index,
-                                        rating: widget.space.rating),
+                                        rating: widget.space.rating.toInt()),
                                   );
                                 }).toList(),
                               )

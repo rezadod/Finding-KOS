@@ -66,7 +66,8 @@ class SpaceCard extends StatelessWidget {
             children: [
               Text(
                 space.name,
-                style: blackTextStyle.copyWith(fontSize: 18),
+                overflow: TextOverflow.ellipsis,
+                style: blackTextStyle.copyWith(fontSize: 16),
               ),
               SizedBox(height: 2),
               Text.rich(TextSpan(

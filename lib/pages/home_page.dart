@@ -171,19 +171,19 @@ class HomePage extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceAround,
           children: [
             BottomNavItems(
-              imgUrl: "assets/icon_home_solid.png",
+              imgUrl: "assets/Icon_home_solid.png",
               isActive: true,
             ),
             BottomNavItems(
-              imgUrl: "assets/icon_mail_solid.png",
+              imgUrl: "assets/Subtract.png",
               isActive: false,
             ),
             BottomNavItems(
-              imgUrl: "assets/icon_card_solid.png",
+              imgUrl: "assets/Subtract-1.png",
               isActive: false,
             ),
             BottomNavItems(
-              imgUrl: "assets/icon_love_solid.png",
+              imgUrl: "assets/Union.png",
               isActive: false,
             )
           ],
